@@ -1,0 +1,19 @@
+ma_liste=[1,2,3,4,5,6,7,8]
+for index, element in enumerate(ma_liste):
+    print(f"indice{index}:{element}")
+ruth=[]
+ruth.append(1)
+ruth.append(2)
+ruth.append(3)
+ruth.append(4)
+ruth.append(5)
+print(ruth)
+ruth.remove(3)
+print(ruth)
+angele=[1,2,3,4,4,4,5]
+print(angele.index(4))
+print(angele.count(2))
+alphabet=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","x","y","z"]
+print(alphabet[:5])
+print(alphabet[-5:])
+print(alphabet[::26])
